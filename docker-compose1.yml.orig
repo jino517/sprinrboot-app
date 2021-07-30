@@ -3,8 +3,13 @@ mysql:
   ports:
     - "3306:3306"
   environment:
+<<<<<<< HEAD
+          - MYSQL_ROOT_PASSWORD=:
+    - MYSQL_ALLOW_EMPTY_PASSWORD=False1
+=======
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=True
+>>>>>>> feat_2
     - MYSQL_USER=petclinic
     - MYSQL_PASSWORD=petclinic
     - MYSQL_DATABASE=petclinic
